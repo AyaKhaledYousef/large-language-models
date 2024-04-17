@@ -1,0 +1,14 @@
+1- Vector store-backed retriever:
+
+- Itis like similarity search by default and it has :
+ 	- Maximum marginal relevance retrieval.
+ 	- Similarity score threshold retrieval.
+	- Specifying top k.
+
+2- MultiQueryRetriever:
+
+- When i ask 1Q to llm , it'll give me number of different types of quiers similar tothat i asked to get relevant answers
+	- Don't use any prompt (it already has own prompt).
+	- Supplying your own prompt.
+
+
